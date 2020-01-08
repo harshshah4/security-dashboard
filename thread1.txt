@@ -1,0 +1,75 @@
+CONNECTED(00000158)
+---
+Certificate chain
+ 0 s:/C=US/ST=California/L=Palo Alto/O=Hewlett-Packard/CN=raviask75.atlas.ind.hp.com
+   i:/C=US/ST=California/L=Palo Alto/O=Hewlett-Packard/CN=raviask75.atlas.ind.hp.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDxzCCAq+gAwIBAgIJAPa22VyBy57EMA0GCSqGSIb3DQEBBQUAMHUxCzAJBgNV
+BAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRIwEAYDVQQHEwlQYWxvIEFsdG8x
+GDAWBgNVBAoTD0hld2xldHQtUGFja2FyZDEjMCEGA1UEAxMacmF2aWFzazc1LmF0
+bGFzLmluZC5ocC5jb20wHhcNMTUxMjE2MTQwNzUyWhcNMTYxMjE1MTQwNzUyWjB1
+MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTESMBAGA1UEBxMJUGFs
+byBBbHRvMRgwFgYDVQQKEw9IZXdsZXR0LVBhY2thcmQxIzAhBgNVBAMTGnJhdmlh
+c2s3NS5hdGxhcy5pbmQuaHAuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAqILgvSx3/FqRV8yfixeWAKi1AYZKoP7zO/ntOY0urfHIZCe3ZM0CL+ab
+gnY3qX05W7OpAxPHO9jqxxlTSOX0yaYNmW4h7m226FRGnXQfEQXB0QcAJoDB2ViM
+48siNut7+2PLsPb3qIXTQUYW/PaUKg3eJX8/jg4CM2DD2ihojkmtYpos7FXdQvRp
+BSIghKvUUWTiNHnAQ6vO5808RJhlGhizOj32QiGDaH4gDNHOi1OOol/H62yJWLAl
+b5YzJMK2r81l3P1LdAaZGawStNTN2Zzvm06MqL9SY2Ho38WLPzxePoBo3bSOwb7N
+WsHBYS4cBuCeB6NA21HjI0k6DWDkEQIDAQABo1owWDBWBgNVHREETzBNggR2aWdu
+gglyYXZpYXNrNzWCBHRlc3SCGnJhdmlhc2s3NS5hdGxhcy5pbmQuaHAuY29thwTA
+qAMvggwxOTIuMTY4LjMuNDeCBHZ5YWcwDQYJKoZIhvcNAQEFBQADggEBADnbtmMV
+x/wMIdnZnqOjzMVDPYrhL/ZMEUiIAZzgQpHpLRaUX21dyWdD++QeKq6mMocYwqO3
+pFiyQs2o1olpE99G+9GYnIKJr6Ioj09vyDauGDVYx77uRcq733G20gW5oOleZkj+
+e1OGT43b1bFq/NqmT2b/A4Zh7aShN1rJzAugiRYE87CbyH/R80sBZEiJhwIW6ty2
+aIKImUNbmPrHnJ+oK4kLkpieIzMhCPxZ6vCXQHyqa5udRm5CCwEdlYIprtyYndpB
+sADa9hTylUa9EIYq6tBURUdN+8bJG8y8ScBhnmVmxuqCSnOvwxeAJL3zfbj5C8C4
+BOWRTPCIibIN4wk=
+-----END CERTIFICATE-----
+subject=/C=US/ST=California/L=Palo Alto/O=Hewlett-Packard/CN=raviask75.atlas.ind.hp.com
+issuer=/C=US/ST=California/L=Palo Alto/O=Hewlett-Packard/CN=raviask75.atlas.ind.hp.com
+---
+No client certificate CA names sent
+Peer signing digest: SHA512
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 1662 bytes and written 443 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: 48CDECFBBAFA85D923CE04218BE7A7235135417AC3E27A03CBEAA1734B0EA768
+    Session-ID-ctx: 
+    Master-Key: 54CCF3D87096C3ADA99E7E255C8DF47A5C099CCFDDF1077E4F4F788317FB23EB97A73AA135820DBA412A7C9D765A404B
+    Key-Arg   : None
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 300 (seconds)
+    TLS session ticket:
+    0000 - 33 dd 28 98 77 9c c8 c7-3a db e7 60 d0 f5 84 27   3.(.w...:..`...'
+    0010 - c9 f5 83 48 8d 93 80 3e-ec 6b 27 67 27 00 3f 28   ...H...>.k'g'.?(
+    0020 - ee 8f 70 98 b5 f8 0b 41-c0 b2 d9 b4 04 8b 5c d3   ..p....A......\.
+    0030 - f8 88 0e c3 43 c0 ed f6-87 d8 f8 c2 e5 f7 93 61   ....C..........a
+    0040 - e4 26 38 bd bb 44 1c bd-ab 2a 3b 88 c1 5e 20 43   .&8..D...*;..^ C
+    0050 - 79 61 9f cc cb f7 53 de-00 2b 19 e2 da c1 e6 82   ya....S..+......
+    0060 - f2 cb e7 38 4f 61 0c 56-56 86 e2 22 29 61 2c b2   ...8Oa.VV..")a,.
+    0070 - 3c 82 35 ee ab 5b e6 de-33 ea 54 dc ae f0 2f 88   <.5..[..3.T.../.
+    0080 - de 55 0a 69 c3 4e ea 03-6f 99 b2 8f 5a c0 de 46   .U.i.N..o...Z..F
+    0090 - b6 32 5d 26 3d 08 5e 98-b8 f5 f0 2e 8d 1b f2 75   .2]&=.^........u
+    00a0 - 2e 0f aa 56 b5 90 36 42-0b 10 31 cc af ef d1 12   ...V..6B..1.....
+    00b0 - 90 b4 4c ac d0 f6 e9 80-9b 40 5a 16 8e 59 ec bf   ..L......@Z..Y..
+
+    Start Time: 1457427833
+    Timeout   : 300 (sec)
+    Verify return code: 18 (self signed certificate)
+---
+closed

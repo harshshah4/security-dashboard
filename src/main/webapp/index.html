@@ -1,0 +1,164 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Welcome</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style type="text/css">
+/* Menu Styles */
+div.relative {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 15%;
+    height:300px;
+    width: 50%;
+    border: 3px solid #73AD21;
+}
+.third-level-menu
+{
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.third-level-menu > li
+{
+    height: 30px;
+    background: #999999;
+}
+.third-level-menu > li:hover { background: #CCCCCC; }
+
+.second-level-menu
+{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.second-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    background: #999999;
+}
+.second-level-menu > li:hover { background: #CCCCCC; }
+
+.top-level-menu
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-level-menu > li
+{
+    position: relative;
+    height: 30px;
+    width: 25%;
+    background: #999999;
+}
+.top-level-menu > li:hover { background: #CCCCCC; }
+
+.top-level-menu li:hover > ul
+{
+    /* On hover, display the next level's menu */
+    display: inline;
+}
+
+/* Menu Link Styles */
+
+.top-level-menu a /* Apply to all links inside the multi-level menu */
+{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 0 0 10px;
+
+    /* Make the link cover the entire list item-container */
+    display: block;
+    line-height: 30px;
+}
+.top-level-menu a:hover { color: #000000; }
+.submit{
+	position:relative;
+	left:37%;
+}
+.reset{
+	position:relative;
+	margin-top:20.5%;
+	left:53%;
+}
+</style>
+<script>
+function myfunction(){
+	
+	if(document.getElementById("selection").value=="CVE"){
+		document.getElementById("Name").disabled=false;
+		document.getElementById("Comp").disabled=false;
+		
+	}
+	else{
+		document.getElementById("Name").disabled=true;
+		document.getElementById("Comp").disabled=true;
+	}
+}
+</script>
+</head>
+
+<body>
+<form action="A" method="post">
+<div class="relative">
+Appliance IP:         <input type="text" ></input>
+<br/><br/><br/>
+<ul class="top-level-menu">
+    <li>
+        <a href="#">Action</a>
+        <ul class="second-level-menu">
+            <li><a href="#">Full DashBoard</a></li>
+            <li>
+            	<a href="#">Cipher Report</a>
+            	<ul class="third-level-menu">
+                    <li><a href="#">NMap</a></li>
+                    <li><a href="#">Cipher Scan</a></li>
+                    <li><a href="#">OpenSSL</a></li>
+                    <li><a href="#">Consolidated</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Protocol Configuration</a>
+                <ul class="third-level-menu">
+                    <li><a href="#">SSLv2</a></li>
+					<li><a href="#">SSLv3</a></li>
+					<li><a href="#">TLSv1.0</a></li>
+					<li><a href="#">TLSv1.1</a></li>
+					<li><a href="#">TLSv1.2</a></li>
+                </ul>
+            </li>
+             <li>
+            	<a href="#">Cipher Configuration</a>
+            	<ul class="third-level-menu">
+                    <li><a href="#">Rule</a></li>
+                    <li><a href="#">Strong</a></li>
+                    <li><a href="#">Weak</a></li>
+                    <li><a href="#">Custom</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Port Scan</a></li>
+            <li><a href="#">Vulnerabilities Report</a></li>
+        </ul>
+    </li>
+</ul>
+<input type="submit" value="Submit" name="submit" class="submit" /><input type="reset" class="reset" value="Reset"></input>
+</div>
+</form>
+</body>
+</html>
