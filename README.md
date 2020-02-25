@@ -17,5 +17,7 @@ There are various security scanners that are capable of scanning the ssl protoco
 
 ## 4. Architecture
 
+![Architecture Diagram](https://github.com/harshshah4/security-dashboard/blob/master/src/main/webapp/WEB-INF/image%20for%20readme/architecture.PNG)
+
 The system is designed as the architectural diagram as described above. The client would be the end which would be in conversation with the host. The client will send the connection request to the host and the host will authenticate the client. The client then asks the user to accept the URI of the page to load. The client request to load the URI and the page is opened. Few other parameters are passed along with the URI which are hit on the REST API and then the details are being passed to the invoking method for further processing. These mapping is done using Web.XML file which has got context switching details made available. 
 The Controller class is responsible for invoking the method of all classes. Different methods have different capabilities in their scope. These are Getting ciphers list, updating ciphers, Getting protocols list that can be supported and updating the protocols required, Vulnerabilities can be checked by applying all the above needed ciphers and protocols. All of these methods would result in several dedicated outputs that can show us various properties like: Cipher Report, Port Scan, Protocol Configuration, Cipher Configuration Vulnerabilities Report and so on. The results could be displayed on the screen or on the file as needed.
